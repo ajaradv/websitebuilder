@@ -1,0 +1,9 @@
+:host {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+
+}
+
+.website-display {
+  grid-column-start: 2;
+}
