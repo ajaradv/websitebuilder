@@ -1,5 +1,8 @@
 package com.websitebuilder.apijava.dto;
 
+import lombok.Data;
+
+@Data
 public class Greeting {
 
   private final long id;
@@ -10,11 +13,4 @@ public class Greeting {
     this.greeting = greeting;
   }
 
-  public long getId() {
-    return id;
-  }
-
-  public String getGreeting() {
-    return greeting;
-  }
 }
